@@ -70,13 +70,13 @@
 
 #day {
   font-family: var(--title-font);
-  font-size: 2em;
+  font-size: 2.4em;
   font-weight: bold;
 
 }
 
 #year {
-
+  font-family: var(--primary-font);
 
 }
 

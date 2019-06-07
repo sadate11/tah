@@ -164,6 +164,7 @@ body {
   height: 110px;
   border: 2px solid;
   text-align: center;
+  align-items: center;
 }
 
 section {
@@ -176,15 +177,17 @@ section {
 }
 
 #day {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 #month {
-  margin: 0;
+  
+  margin-bottom: 0;
 }
 
 #year {
-  margin: 0;
+  margin-top: 0;
 }
 
 
