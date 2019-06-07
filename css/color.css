@@ -1,0 +1,73 @@
+:root {
+    --main-color: #282828;
+    --primary-color: #DDB053;
+    --secondary-color: #284D79;
+    --background-color: #F2EEE7;
+
+
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+.branding {
+  background-color: var(--background-color);
+}
+
+.hero-menu {
+  background-color: var(--primary-color);
+}
+
+.container {
+  background-color: var(--background-color);
+  color: var(--main-color);
+}
+
+#home-title {
+  color: white;
+}
+
+#scroll-text {
+  color: white;
+}
+
+.social-item {
+  color: white;
+  background-color: black;
+}
+
+.cta-home {
+  color: white;
+  background-color: var(--primary-color);
+}
+
+#cta-apply {
+  color: white;
+  background-color: var(--primary-color);
+}
+
+#desc-title {
+  color: white;
+}
+
+#desc-text {
+  color: white;
+}
+
+#desc-date {
+  color: var(--primary-color);
+}
+
+#menu-icon {
+  color: white;
+}
+
+#menu-arrow {
+  color: white;
+}
+
+.date {
+  background-color: white;
+  border-color: black;
+}

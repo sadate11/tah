@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    scroll-behavior: auto;
+    overflow-y: scroll;
+}
+
+.landing-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr; 
+  grid-template-areas: "overlap";
+
+}
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 12% 1fr;
+    grid-area: overlap;
+
+}
+
+.hero-menu {
+  width: 89px;
+  height: 550px;
+  margin-top: 12%;
+  margin-left: 9.5%;
+  grid-area: overlap;
+  z-index: 1;
+  position: relative;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+
+.branding {
+    height: 100vh;
+    position: relative;
+}
+
+#logo {
+  width: 60%;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.hero-home {
+    height: 100vh;
+    background-image: url(../assets/img1.png);
+    background-size: cover;
+    position: relative;
+}
+
+.header-home {
+  margin: 40px;
+
+}
+
+
+.social-links {
+  position: absolute;
+  bottom: 0;
+  list-style-type: none;
+  align-items: center;
+
+}
+
+.social-item {
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+
+}
+
+#home-title {
+  display: inline;
+
+}
+
+.home-desc {
+  margin-top: 20%;
+  margin-left: 35%;
+}
+
+.cta-home {
+  float: right;
+  width: 150px;
+  height: 55px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+#scroll-text {
+  width: 100%;
+  left: 0;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+
+#desc-title {
+  margin-top: 0;
+}
+
+#desc-text {
+  margin-bottom: 0;
+}
+
+#cta-apply {
+  width: 150px;
+  height: 55px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+#menu-icon {
+  margin-top: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+#menu-arrow {
+  margin-left: 20px;
+  bottom: 0;
+  position: absolute;
+  cursor: pointer;
+}
+
+.container-banner {
+
+  padding-top: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-bottom: 20px;
+}
+
+
+#container-logo {
+  width: 10%;
+  height: 10%;
+
+}
+
+#container-title {
+  float: right;
+}
+
+#container-cta {
+  float: right;
+  margin-left: 14px;
+}
+
+.date {
+  width: 105px;
+  height: 110px;
+  border: 2px solid;
+  text-align: center;
+}
+
+section {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.seminar-one {
+  margin-top: 12vh;
+}
+
+#day {
+  margin: 0;
+}
+
+#month {
+  margin: 0;
+}
+
+#year {
+  margin: 0;
+}
+
+
+

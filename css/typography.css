@@ -1,0 +1,87 @@
+:root {
+  --primary-font: "Corporate S";
+  --title-font: "Playfair Display";
+}
+
+
+#home-title {
+  font-family: "Corporate S", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#scroll-text {
+  font-family: var(--primary-font);
+  font-size: 1em;
+}
+
+.cta-home {
+  font-family: var(--primary-font);
+  font-size: .8em;
+  font-weight: bold;
+}
+
+#cta-apply {
+  font-family: var(--primary-font);
+  font-size: .8em;
+  font-weight: bold;
+}
+
+#desc-text {
+  font-family: var(--primary-font);
+  font-size: 1.2em;
+}
+
+#desc-date {
+  font-family: var(--primary-font);
+  font-size: 1.2em;
+  font-weight: bold;
+  line-height: 2rem;
+}
+
+#desc-title {
+  font-family: var(--title-font);
+  font-size: 3.4em;
+}
+
+.social-item {
+  font-size: 1.2em;
+
+}
+
+#menu-icon {
+  font-size: 2em;
+}
+
+#menu-arrow {
+  font-size: 1.5em;
+}
+
+#container-title {
+  font-family: var(--primary-font);
+  font-size: 1em;
+  font-weight: bold;
+}
+
+#month {
+  font-family: var(--primary-font);
+
+}
+
+#day {
+  font-family: var(--title-font);
+  font-size: 2em;
+  font-weight: bold;
+
+}
+
+#year {
+
+
+}
+
+
+
+
+
+
