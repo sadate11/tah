@@ -104,3 +104,23 @@ body {
 .fa-university {
   color: var(--primary-color);
 }
+
+#sem-divider {
+  color: var(--primary-color);
+}
+
+.fees {
+  background-color: white;
+}
+
+#audit {
+  background-color: #F3F3F3;
+}
+
+#grad-cred {
+  background-color: #F3F3F3;
+}
+
+#fee-footer {
+  color: #9B9B9B;
+}

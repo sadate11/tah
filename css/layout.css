@@ -34,13 +34,17 @@ body {
 
 .container {
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
     
 }
 
 .content {
   display: grid;
   grid-template-columns: 1fr 12%;
+}
+
+.content-body {
+  margin-left: 10%;
 }
 
 .nav {
@@ -182,8 +186,8 @@ body {
 .container-banner {
 
   padding-top: 20px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 9%;
+  margin-right: 9%;
   padding-bottom: 20px;
 }
 
@@ -233,15 +237,10 @@ body {
   justify-content: center;
 }
 
-section {
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-
 
 .seminar {
-  margin-top: 8vh;
+  margin-top: 12vh;
+  margin-bottom: 12vh;
 }
 
 #day {
@@ -270,8 +269,10 @@ section {
 .seminar-img {
   width: 552px;
   height: 502px;
-  background-image: url(../assets/sem1.png);
-  background-size: contain;
+}
+
+.sem-img {
+  width: 100%;
 }
 
 .seminar-cta {
@@ -328,6 +329,83 @@ section {
 #kathleen-text {
   width: 58%;
 }
+
+#sem-divider {
+  width: 75%;
+  border: 1px dashed;
+}
+
+.registration {
+  text-align: center;
+}
+
+.fees {
+  width: 70%;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4vh;
+  padding-top: 1vh;
+  padding-left: 4vh;
+  padding-right: 4vh;
+}
+
+.fee-title {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.sem-fee {
+  
+}
+
+.fee-break {
+  margin-top: 6vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 4vh;
+}
+
+#audit {
+  width: 100%;
+  height: 250px;
+}
+
+#grad-cred {
+  width: 100%;
+  height: 250px;
+}
+
+#double-occ {
+  width: 75%;
+  height: 35%;
+}
+
+#fee-footer {
+  margin-top: 3vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.scholarships {
+  margin-top: 20vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 4vh;
+
+}
+
+#scholar-img {
+  width: 100%;
+  height: 100%;
+
+}
+
+
 
 
 
