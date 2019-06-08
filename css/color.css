@@ -71,3 +71,36 @@ body {
   background-color: white;
   border-color: black;
 }
+
+.nav-line {
+  color: black;
+}
+
+.nav-item.active {
+  color: var(--primary-color);
+}
+
+.title-line {
+  background-color: var(--primary-color);
+}
+
+.title-underline {
+  background-color: var(--primary-color);
+}
+
+.sem-location {
+  color: var(--primary-color);
+}
+
+.seminar-cta {
+  color: white;
+  background-color: var(--secondary-color);
+}
+
+.inst-line {
+  background-color: var(--primary-color);
+}
+
+.fa-university {
+  color: var(--primary-color);
+}

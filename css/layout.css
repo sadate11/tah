@@ -38,6 +38,46 @@ body {
     
 }
 
+.content {
+  display: grid;
+  grid-template-columns: 1fr 12%;
+}
+
+.nav {
+  height: 100vh;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.nav-list {
+  margin-top: 40vh;
+  list-style-type: none;
+  padding: 0;
+  position: sticky;
+}
+
+.nav-item {
+  margin-bottom: 10px;
+  cursor: pointer;
+  text-align: center;
+
+}
+
+.nav-item.active {
+
+}
+
+.nav-line {
+  float: right;
+  width: 15px;
+  border: .5px solid;
+}
+
+.nav-line.active {
+  width: 25px;
+}
 
 .branding {
     height: 100vh;
@@ -110,6 +150,10 @@ body {
   margin-top: 0;
 }
 
+.title {
+  display: flex;
+}
+
 #desc-text {
   margin-bottom: 0;
 }
@@ -145,7 +189,7 @@ body {
 
 
 #container-logo {
-  width: 10%;
+  width: 12%;
   height: 10%;
 
 }
@@ -159,12 +203,34 @@ body {
   margin-left: 14px;
 }
 
+.date-title {
+  display: grid;
+  grid-template-columns: 20% 1fr;
+}
+
+.title-line {
+  width: 40px;
+  height: 1px;
+  margin-top: 4.7vh;
+}
+
+.title-underline {
+  width: 475px;
+  height: 25px;
+  margin-top: -30px;
+}
+
+.seminar-title {
+  display: inline;
+}
+
 .date {
   width: 105px;
   height: 110px;
   border: 2px solid;
   text-align: center;
   align-items: center;
+  justify-content: center;
 }
 
 section {
@@ -172,8 +238,10 @@ section {
   margin-right: 5%;
 }
 
-.seminar-one {
-  margin-top: 12vh;
+
+
+.seminar {
+  margin-top: 8vh;
 }
 
 #day {
@@ -187,7 +255,78 @@ section {
 }
 
 #year {
-  margin-top: 0;
+ margin-top: 0px;
+}
+
+.seminar-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.seminar-text {
+  padding-right: 6rem;
+}
+
+.seminar-img {
+  width: 552px;
+  height: 502px;
+  background-image: url(../assets/sem1.png);
+  background-size: contain;
+}
+
+.seminar-cta {
+  width: 150px;
+  height: 55px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 6vh;
+}
+
+.instructor {
+  margin-top: 8vh;
+  margin-bottom: 8vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.inst-line {
+  width: 120px;
+  height: 40px;
+  margin-top: 14vh;
+  margin-bottom: -50px;
+}
+
+.info-text {
+  width: 40%;
+  text-align: center;
+}
+
+.inst-img {
+  width: 50%;
+}
+
+.inst-name {
+  margin: 0;
+
+}
+
+.inst-title {
+  margin-top: 1vh;
+  margin-bottom: 0;
+
+}
+
+.inst-college {
+  margin-top: 1vh;
+}
+
+#kathleen-img {
+  width: 58%;
+}
+
+#kathleen-text {
+  width: 58%;
 }
 
 

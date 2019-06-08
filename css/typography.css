@@ -21,6 +21,12 @@
   font-weight: bold;
 }
 
+.seminar-cta {
+  font-family: var(--primary-font);
+  font-size: .8em;
+  font-weight: bold;
+}
+
 #cta-apply {
   font-family: var(--primary-font);
   font-size: .8em;
@@ -78,6 +84,50 @@
 #year {
   font-family: var(--primary-font);
 
+}
+
+.nav-item {
+  font-family: var(--primary-font);
+  font-size: 1em;
+}
+
+.nav-item.active {
+  font-family: var(--primary-font);
+  font-size: 1.8em;
+}
+
+.seminar-title {
+  font-family: var(--title-font);
+  font-size: 3.5em;
+}
+
+.sem-location {
+  font-family: var(--primary-font);
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.seminar-text {
+  font-family: var(--primary-font);
+  font-size: 1.3em;
+  line-height: 40px;
+}
+
+.inst-name {
+  font-family: var(--title-font);
+  font-size: 1.4em;
+}
+
+.inst-title {
+  font-family: var(--primary-font);
+  font-size: 1em;
+}
+
+.inst-college {
+  font-family: var(--primary-font);
+  font-size: .8em;
+  font-weight: bold;
 }
 
 
