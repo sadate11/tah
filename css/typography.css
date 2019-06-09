@@ -146,6 +146,34 @@
   font-size: 1.4em
 }
 
+.sem-subtitle {
+  font-family: var(--title-font);
+  font-size: 2.6em;
+}
+
+.news-title-upper {
+  font-family: var(--primary-font);
+  font-size: 1.5em;
+}
+
+#email-field {
+  font-family: var(--primary-font);
+  font-size: 1em;
+}
+
+#name-field {
+  font-family: var(--primary-font);
+  font-size: 1em;
+}
+
+#submit {
+  font-family: var(--primary-font);
+  font-size: 1em;
+}
+
+
+
+
 
 
 

@@ -124,3 +124,22 @@ body {
 #fee-footer {
   color: #9B9B9B;
 }
+
+#name-field {
+  color: var(--main-color);
+  background-color: #EDDFC2;
+}
+
+#email-field {
+  color: var(--main-color);
+  background-color: #EDDFC2;
+}
+
+#submit {
+  color: var(--main-color);
+  background-color: #EDDFC2;
+}
+
+.footer-banner {
+  background-color: var(--secondary-color);
+}

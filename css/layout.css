@@ -1,7 +1,6 @@
 body {
     margin: 0;
     scroll-behavior: auto;
-    overflow-y: scroll;
 }
 
 .landing-container {
@@ -403,6 +402,80 @@ body {
   width: 100%;
   height: 100%;
 
+}
+
+.photos {
+  text-align: center;
+  margin-top: 16vh;
+}
+
+.sem-pictures {
+  width: 1210px;
+  text-align: center;
+  margin-top: 8vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+  
+}
+
+.sem-pic {
+  width: 600px;
+  height: 500px;
+}
+
+.newsletter {
+  margin-top: 10vh;
+  margin-left: 15%;
+  margin-bottom: 8vh;
+}
+
+#news-title {
+  margin-top: 0;
+}
+
+.news-title-upper {
+  margin-bottom: 0;
+}
+
+#name-field {
+  width: 187px;
+  height: 60px;
+  border: none;
+  margin-right: 5px;
+  padding-left: 10px;
+  outline: none;
+}
+
+#email-field {
+  width: 280px;
+  height: 60px;
+  border: none;
+  margin-right: 5px;
+  padding-left: 10px;
+  outline: none;
+}
+
+#submit {
+  width: 145px;
+  height: 60px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+#square-shape {
+  margin-left: 10%;
+  width: 200px;
+  height: 145/2px;
+}
+
+.footer-banner {
+  width: 100vw;
+  height: 225px;
 }
 
 
