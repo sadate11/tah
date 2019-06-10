@@ -359,6 +359,7 @@ body {
 }
 
 .sem-fee {
+  cursor: pointer;
   
 }
 
@@ -477,6 +478,39 @@ body {
   width: 100vw;
   height: 225px;
 }
+
+.footer-container {
+  padding-top: 4vh;
+  margin-left: 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#footer-logo {
+  width: 135px;
+  height: 45px;
+}
+
+#copyright {
+  margin-top: 5vh;
+  margin-bottom: 0;
+}
+
+#agency {
+  margin-top: 6vh;
+  margin-bottom: 0;
+}
+
+.info {
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.sem-fee.active {
+  border-bottom: 2px solid;
+}
+
+
 
 
 

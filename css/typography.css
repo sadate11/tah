@@ -171,6 +171,10 @@
   font-size: 1em;
 }
 
+.footer-container {
+  font-family: var(--primary-font);
+  font-size: 1em;
+}
 
 
 
