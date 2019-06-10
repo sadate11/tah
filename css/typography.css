@@ -1,6 +1,8 @@
+@import url("https://use.typekit.net/iim1ozy.css");
+
 :root {
   --primary-font: "Corporate S";
-  --title-font: "Playfair Display";
+  --title-font: "Starling";
 }
 
 
@@ -52,7 +54,10 @@
 
 #desc-title {
   font-family: var(--title-font);
-  font-size: 3.4em;
+  font-size: 56px;
+  font-family: starling, serif;
+  font-weight: 900;
+  font-style: normal;
 }
 
 .social-item {
@@ -81,7 +86,7 @@
 
 #day {
   font-family: var(--title-font);
-  font-size: 2.4em;
+  font-size: 2.2em;
   font-weight: bold;
 
 }
@@ -103,7 +108,9 @@
 
 .seminar-title {
   font-family: var(--title-font);
-  font-size: 3.5em;
+  font-size: 3.4em;
+  font-weight: 900;
+  font-style: normal;
 }
 
 .sem-location {
@@ -122,6 +129,8 @@
 .inst-name {
   font-family: var(--title-font);
   font-size: 1.4em;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .inst-title {
@@ -154,6 +163,8 @@
 .sem-subtitle {
   font-family: var(--title-font);
   font-size: 2.6em;
+  font-weight: 900;
+  font-style: normal;
 }
 
 .news-title-upper {
