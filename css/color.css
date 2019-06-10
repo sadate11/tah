@@ -147,3 +147,10 @@ body {
 .footer-container {
   color: white;
 }
+.line {
+  background-color: white;
+}
+
+.banner {
+  background-color: var(--background-color);
+}

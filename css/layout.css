@@ -37,6 +37,26 @@ body {
     
 }
 
+/* menu icon */
+.menu-icon {
+  margin-top: 40px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+
+.line {
+  width: 35px;
+  height: 5px;
+  margin-top: 5px;
+}
+
+#line-three {
+  width: 20px;
+}
+
+
+
 .content {
   display: grid;
   grid-template-columns: 1fr 12%;
@@ -51,7 +71,10 @@ body {
   display: block;
   align-items: center;
   justify-content: center;
-  position: relative;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  bottom: 0px;
 }
 
 .nav-list {
@@ -169,11 +192,7 @@ body {
   cursor: pointer;
 }
 
-#menu-icon {
-  margin-top: 20px;
-  margin-left: 20px;
-  cursor: pointer;
-}
+
 
 #menu-arrow {
   margin-left: 20px;
@@ -182,12 +201,19 @@ body {
   cursor: pointer;
 }
 
-.container-banner {
+.banner {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
 
-  padding-top: 20px;
+}
+
+.container-banner {
+  padding-top: 2px;
   margin-left: 9%;
   margin-right: 9%;
-  padding-bottom: 20px;
+  padding-bottom: 2px;
+  
 }
 
 
