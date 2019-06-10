@@ -97,6 +97,11 @@ body {
   background-color: var(--secondary-color);
 }
 
+.reg-cta {
+  color: white;
+  background-color: var(--secondary-color);
+}
+
 .inst-line {
   background-color: var(--primary-color);
 }
@@ -118,6 +123,10 @@ body {
 }
 
 #grad-cred {
+  background-color: #F3F3F3;
+}
+
+#double-occ {
   background-color: #F3F3F3;
 }
 
@@ -153,4 +162,8 @@ body {
 
 .banner {
   background-color: var(--background-color);
+}
+
+.price {
+  color: #9B9B9B;
 }

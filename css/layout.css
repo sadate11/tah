@@ -309,6 +309,14 @@ body {
   margin-top: 6vh;
 }
 
+.reg-cta {
+    width: 150px;
+    height: 55px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
 .instructor {
   margin-top: 8vh;
   margin-bottom: 8vh;
@@ -365,8 +373,8 @@ body {
 }
 
 .fees {
-  width: 70%;
-  height: 450px;
+  width: 870px;
+  height: 515px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 4vh;
@@ -398,21 +406,21 @@ body {
 
 #audit {
   width: 100%;
-  height: 250px;
+  height: 275px;
 }
 
 #grad-cred {
   width: 100%;
-  height: 250px;
+  height: 275px;
 }
 
-#double-occ {
-  width: 75%;
-  height: 35%;
-}
+/* #double-occ {
+  width: 575px;
+  height: 275px;
+} */
 
 #fee-footer {
-  margin-top: 3vh;
+  margin-top: 50px;
   padding-left: 2vw;
   padding-right: 2vw;
 }
