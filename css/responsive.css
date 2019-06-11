@@ -222,20 +222,26 @@
     .news-form {
         display: block;
         
+        
     }
 
     #name-field {
-        display: block;
+        width: 110px;
         margin-left: 0;
         margin-right: 0;
         margin-bottom: 10px;
     }
 
     #email-field {
-        display: block;
+        width: 110px;
         margin-left: 0;
         margin-right: 0;
         margin-bottom: 10px;
+    }
+
+    #submit {
+        width: 245px;
+        display: block;
     }
 
     .sem-subtitle {
