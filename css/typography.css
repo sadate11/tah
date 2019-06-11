@@ -229,7 +229,13 @@
   }
 
   .desc-text {
-    
+
+  }
+
+  #container-title {
+    font-size: .6em;
+        
+
   }
 }
 

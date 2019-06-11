@@ -1,6 +1,8 @@
 
 /* Mobile media queries */
 @media (max-width: 768px) {
+    
+
     .landing-container {
         width: 100vh;
         height: 100vh;
@@ -19,20 +21,120 @@
         grid-template-columns: 1fr;
     }
 
+    .content {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .nav {
+        display: none;
+    }
+
     .header-home {
         margin: 10px;
     }
 
-    
+    .container-banner {
+        padding-top: 2px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-bottom: 2px;
+    }
+
+    #container-logo {
+        width: calc(163px/2);
+        height: calc(58px/2);
+        
+      
+      }
 
     .cta-home {
         display: none;
     }
 
     .home-desc {
-        margin: 20px;
+        margin-top: 60%;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    #desc-title {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #scroll-text {
+        display: none;
+    }
+
+    .seminar-content {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .seminar-img {
+        width: calc(552px/2);
+        height: calc(502px/2);
+    }
+
+    .instructor {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .inst-img {
+        width: 25%;
+        
+    }
+
+    #kathleen-img {
+        width: 25%;
+    }
+
+    .info-text {
+        width: 25%;
         text-align: center;
     }
+
+    #kathleen-text {
+        width: 25%;
+        text-align: center;
+    }
+
+
+
+    .banner {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0px;
+        z-index: 1;
+      
+    }
+
+    .date-title {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .content-body {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .footer-banner {
+        height: 100%;
+    }
+
+
+    .footer-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 20px;
+    }
+
+    
     
 
 
