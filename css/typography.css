@@ -221,6 +221,19 @@
 }
 
 
+/* Mobile media queries */
+@media (max-width: 768px) {
+  #desc-title {
+    font-size: 2em;
+    font-weight: 600;
+  }
+
+  .desc-text {
+    
+  }
+}
+
+
 
 
 

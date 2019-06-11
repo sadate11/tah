@@ -38,6 +38,23 @@ $("#hero-scholar").click(function() {
 
 
 // SIDE NAV MENU lINKS TO SECTIONS
+$("#nav-sem").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".seminars").offset().top},
+        'slow');
+});
+
+$("#nav-reg").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".registration").offset().top},
+        'slow');
+});
+
+$("#nav-scholar").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".scholarships").offset().top},
+        'slow');
+});
 
 
 

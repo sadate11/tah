@@ -1,13 +1,46 @@
 
 /* Mobile media queries */
 @media (max-width: 768px) {
+    .landing-container {
+        width: 100vh;
+        height: 100vh;
+    }
+
+    .hero-menu {
+        display: none;
+    }
+
+    .branding {
+        display: none;
+    }
+
+    .hero {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .header-home {
+        margin: 10px;
+    }
+
+    
+
+    .cta-home {
+        display: none;
+    }
+
+    .home-desc {
+        margin: 20px;
+        text-align: center;
+    }
+    
 
 
 }
 
 /* Tablet media queries */
 @media (min-width: 768px) {
-    
+
 
 }
 
