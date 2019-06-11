@@ -7,9 +7,9 @@
 
 
 #home-title {
-  font-family: "Corporate S", sans-serif;
+  font-family: var(--primary-font);
   font-size: 15px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 #scroll-text {
@@ -20,7 +20,7 @@
 .cta-home {
   font-family: var(--primary-font);
   font-size: .8em;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .seminar-cta {
@@ -37,7 +37,7 @@
 #cta-apply {
   font-family: var(--primary-font);
   font-size: .8em;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 #desc-text {
@@ -76,7 +76,7 @@
 #container-title {
   font-family: var(--primary-font);
   font-size: 1em;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 #month {
@@ -87,7 +87,7 @@
 #day {
   font-family: var(--title-font);
   font-size: 2.2em;
-  font-weight: bold;
+  font-weight: 900;
 
 }
 
@@ -116,7 +116,7 @@
 .sem-location {
   font-family: var(--primary-font);
   font-size: 1em;
-  font-weight: bold;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -141,13 +141,13 @@
 .inst-college {
   font-family: var(--primary-font);
   font-size: .8em;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .sem-fee {
   font-family: var(--primary-font);
   font-size: 1.2em;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 #fee-footer {

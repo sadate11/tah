@@ -89,8 +89,9 @@
     }
 
     .seminar-img {
-        width: calc(552px/2);
-        height: calc(502px/2);
+        width: 45%;
+        height: 30%;
+        /* height: calc(502px/2); */
     }
 
     .instructor {
