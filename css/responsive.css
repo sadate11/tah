@@ -173,6 +173,7 @@
         display: grid;
         grid-template-columns: 1fr;
         row-gap: 20px;
+        padding-bottom: 20px;
     }
 
     .scholarships {
@@ -183,7 +184,7 @@
     }
 
     .scholar-img-box {
-        width: 50%;
+        width: 45%;
     }
 
     .photos {
@@ -191,7 +192,7 @@
     }
 
     .sem-pictures {
-        width: calc(310px);
+        width: 310px;
         text-align: center;
         margin-top: 2vh;
         margin-left: 10px;
@@ -328,6 +329,10 @@
         margin-top: 35%;
     }
 
+    .container {
+        padding-left: 10px;
+    }
+
     .title-underline {
         width: 350px;
         height: 20px;
@@ -353,6 +358,62 @@
     .seminar-text {
         width: 75%;
 
+    }
+
+    .instructor {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 20px;
+    }
+
+    .inst-img {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    #kathleen-img {
+        width: 50%;
+    }
+
+    .fees {
+        width: 550px;
+        height: 100%;
+        margin-top: 1vh;
+        padding-top: 1vh;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .sem-pictures {
+        width: 620px;
+        text-align: center;
+        margin-top: 2vh;
+        margin-left: 10px;
+        margin-right: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 0;
+        row-gap: 5px;
+        
+      }
+
+    .sem-pic {
+        width: 300px;
+        height: 250px;
+        
+    }
+
+    .footer-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 20px;
+        padding-bottom: 20px;
+    }
+
+    .scholar-img-box {
+        width: 75%;
     }
 
 
