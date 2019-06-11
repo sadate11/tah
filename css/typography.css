@@ -1,8 +1,8 @@
 @import url("https://use.typekit.net/iim1ozy.css");
 
 :root {
-  --primary-font: "corporate-s";
-  --title-font: "starling";
+  --primary-font: "corporate-s", sans-serif;
+  --title-font: "starling", serif;
 }
 
 
