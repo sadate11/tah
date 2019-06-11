@@ -225,7 +225,7 @@
 @media (max-width: 768px) {
   #desc-title {
     font-size: 2em;
-    font-weight: 600;
+    font-weight: 900;
   }
 
   .desc-text {
@@ -238,11 +238,11 @@
   }
 
   .seminar-title {
-    font-size: 1.5em;
+    font-size: 1.4em;
   }
 
   .sem-subtitle {
-    font-size: 1.4em;
+    font-size: 1.2em;
   }
 
   .seminar-text {
@@ -254,6 +254,10 @@
   }
 
   #scholar-text {
+    font-size: 1em;
+  }
+
+  .sem-location {
     font-size: 1em;
   }
 
