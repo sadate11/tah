@@ -3,6 +3,7 @@
 @media (max-width: 768px) {
 
     body {
+        margin: 0;
         overflow-x: hidden;
         
     }
@@ -315,7 +316,7 @@
 }
 
 /* Tablet media queries */
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 992px) {
     body {
         overflow-x: hidden;
         
