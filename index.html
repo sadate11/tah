@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/main.css">
 
     <script src="https://kit.fontawesome.com/a407c9d903.js"></script>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -47,12 +49,20 @@
 
     </div>
 
-    <div class="hero-menu">
-      <!-- <p id="menu-icon"><i class="fas fa-bars"></i></p> -->
+    <div class="hero-menu ">
       <div class="menu-icon">
-        <div class="line" id="line-one"></div>
-        <div class="line" id="line-two"></div>
-        <div class="line" id="line-three"></div>
+        <div class="line line-one"></div>
+        <div class="line line-two"></div>
+        <div class="line line-three"></div>
+      </div>
+
+
+      <div class="hero-menu-items">
+      <p class="hero-menu-item" id="hero-sem">Seminars</p>
+      <p class="hero-menu-item" id="hero-reg">Registration</p>
+      <p class="hero-menu-item" id="hero-scholar">Scholarships</p>
+      <hr id="hero-menu-line">
+      <p id="hero-menu-title">Teaching American History</p>
       </div>
       <p id="menu-arrow"><i class="fas fa-arrow-right"></i></p>
 
@@ -203,28 +213,39 @@
             <h1 class="seminar-title">Join us</h1>
             <div class="fees">
               <div class="fee-title">
-              <h3 class="sem-fee active">TUITION</h3>
-              <h3 class="sem-fee">ROOM & BOARD</h3>
+              <h3 class="sem-fee active" id="tuition-button">TUITION</h3>
+              <h3 class="sem-fee" id="rb-button">ROOM & BOARD</h3>
               </div>
               <div class="fee-break">
+                <div class="tuition">
                 <div id="audit">
                   <p class="reg-title">
                     <strong>Audit</strong> <br>(25 inservice hours)
                   </p>
                   <p class="price">$578</p>
                   <button  class="reg-cta" type="button" name="button"> REGISTER</button>
-
                 </div>
+                
+                
                 <div id="grad-cred">
                     <p class="reg-title">
                         <strong>Graduate credit</strong> <br>(2 semester hours)
                       </p>
                       <p class="price">$1156</p>
                       <button  class="reg-cta" type="button" name="button"> REGISTER</button>
+                </div>     
+                </div>
+                <div class="room-board">
+                  <p id="rb-info">Room and board are available at Ashland University, as is a complimentary <br> airport shuttle service between the campus and Cleveland Hopkins International Airport.
+                    </p>
+                <div id="double-occ">
+                    <p class="reg-title">
+                        <strong>Double-occupancy air <br> conditioned room and all meals</strong>
+                      </p>
+                      <p class="price">$1156</p>
+                      <button  class="reg-cta" type="button" name="button"> REGISTER</button>
 
                 </div>
-                <div id="double-occ">
-
                 </div>
               </div>
               <p id="fee-footer">Participants should plan to check in at the Ashland University campus between 12:00 noon and 4:00 pm on Sunday. The opening seminar session will begin promptly at 4:30 pm, followed by dinner.</p>
@@ -288,14 +309,19 @@
       <div class="nav">
         <ul class="nav-list">
           <li class="nav-item active" id="nav-sem">Seminars <span><hr class="nav-line active"></span> </li>
+
           <li class="nav-item" id="nav-reg">Registration <span><hr class="nav-line"></span> </li>
+
           <li class="nav-item" id="nav-scholar">scholarships<span><hr class="nav-line"></span> </li>
+          
         </ul>
       </div>
 
     </div>
 
   </div>
+
+<script type="text/javascript" src="js/script.js"></script>
 </body>
 
 <footer>

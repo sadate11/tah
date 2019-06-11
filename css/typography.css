@@ -203,6 +203,23 @@
   font-size: 1.6em;
 }
 
+#rb-info {
+  font-family: var(--primary-font);
+  font-size: 1em;
+}
+
+.hero-menu-item {
+  font-family: var(--primary-font);
+  font-size: 1.8em;
+  
+}
+
+#hero-menu-title {
+  font-family: var(--primary-font);
+  font-size: 1.6em;
+  
+}
+
 
 
 
