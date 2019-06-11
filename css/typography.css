@@ -276,7 +276,34 @@
 
 
 
+}/* Tablet media queries */
+@media (min-width: 768px) {
+  #desc-text {
+    font-size: 1.6em;
+  }
+
+  #desc-title {
+    font-size: 3.4em;
+  }
+
+  .seminar-title {
+    font-size: 3em;
+  }
+
+  .sem-location {
+    font-size: 1.4em;
+  }
+
+  .seminar-text {
+    font-size: 1.4em;
+  }
+  
+
+
 }
+
+
+
 
 
 

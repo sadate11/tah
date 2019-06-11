@@ -2,7 +2,7 @@
 /* Mobile media queries */
 @media (max-width: 768px) {
 
-    html, body {
+    body {
         overflow-x: hidden;
         
     }
@@ -90,8 +90,8 @@
 
     .seminar-img {
         width: 45%;
-        height: 30%;
-        /* height: calc(502px/2); */
+        height: 45%;
+        
     }
 
     .instructor {
@@ -299,10 +299,9 @@
         text-align: left;
     }
 
-    .seminar-info {
-        margin-left: auto;
-        margin-right: auto;
-    }
+    /* .seminar-info {
+        width: 100%;
+    } */
 
     
 
@@ -316,6 +315,47 @@
 
 /* Tablet media queries */
 @media (min-width: 768px) {
+    body {
+        overflow-x: hidden;
+        
+    }
+
+    .cta-home {
+        display: initial;
+    }
+
+    .home-desc {
+        margin-top: 35%;
+    }
+
+    .title-underline {
+        width: 350px;
+        height: 20px;
+        margin-top: -25px;
+    }
+
+    .inst-line {
+        width: 100px;
+        height: 40px;
+        margin-bottom: -30px;
+    }
+
+    .seminar-info {
+        width: 100%;
+    }
+
+    .seminar-img {
+        width: 75%;
+        height: 75%;
+        
+    }
+
+    .seminar-text {
+        width: 75%;
+
+    }
+
+
 
 
 }
@@ -323,11 +363,19 @@
 /* Laptop media queries */
 @media (min-width: 992px) {
 
+    .home-desc {
+        margin-top: 20%;
+    }
+
 
 }
 
 /* Desktop media queries */
 @media (min-width: 1200px) {
+
+    .home-desc {
+        margin-top: 20%;
+    }
 
 
 
