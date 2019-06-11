@@ -7,46 +7,46 @@
 
 
 #home-title {
-  font-family: var(--primary-font);
+  font-family: "corporate-s", sans-serif;
   font-size: 1em;
   font-weight: 700;
 }
 
 #scroll-text {
-  font-family: var(--primary-font);
+  font-family: "corporate-s", sans-serif;
   font-size: 1em;
 }
 
 .cta-home {
-  font-family: var(--primary-font);
+  font-family: "corporate-s", sans-serif;
   font-size: .8em;
   font-weight: 700;
 }
 
 .seminar-cta {
-  font-family: var(--primary-font);
+  font-family: "corporate-s", sans-serif;
   font-size: 1em;
   
 }
 
 .reg-cta {
-  font-family: var(--primary-font);
+  font-family: "corporate-s", sans-serif;
   font-size: 1em;
 }
 
 #cta-apply {
-  font-family: var(--primary-font);
+  font-family: "corporate-s", sans-serif;
   font-size: .8em;
   font-weight: 700;
 }
 
 #desc-text {
-  font-family: var(--primary-font);
+  font-family: "corporate-s", sans-serif;
   font-size: 1.2em;
 }
 
 #desc-date {
-  font-family: var(--primary-font);
+  font-family: "corporate-s", sans-serif;
   font-size: 1.2em;
   font-weight: bold;
   line-height: 2rem;
@@ -74,13 +74,13 @@
 }
 
 #container-title {
-  font-family: var(--primary-font);
+  font-family: "corporate-s", sans-serif;
   font-size: 1em;
   font-weight: 700;
 }
 
 #month {
-  font-family: var(--primary-font);
+  font-family: "corporate-s", sans-serif;
 
 }
 
@@ -92,17 +92,17 @@
 }
 
 #year {
-  font-family: var(--primary-font);
+  font-family: "corporate-s", sans-serif;
 
 }
 
 .nav-item {
-  font-family: var(--primary-font);
+  font-family: "corporate-s", sans-serif;
   font-size: 1em;
 }
 
 .nav-item.active {
-  font-family: var(--primary-font);
+  font-family: "corporate-s", sans-serif;
   font-size: 1.8em;
 }
 
@@ -114,14 +114,14 @@
 }
 
 .sem-location {
-  font-family: var(--primary-font);
+  font-family: "corporate-s", sans-serif;
   font-size: 1em;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 .seminar-text {
-  font-family: var(--primary-font);
+  font-family: "corporate-s", sans-serif;
   font-size: 1.3em;
   line-height: 40px;
 }
@@ -134,29 +134,29 @@
 }
 
 .inst-title {
-  font-family: var(--primary-font);
+  font-family: "corporate-s", sans-serif;
   font-size: 1em;
 }
 
 .inst-college {
-  font-family: var(--primary-font);
+  font-family: "corporate-s", sans-serif;
   font-size: .8em;
   font-weight: 700;
 }
 
 .sem-fee {
-  font-family: var(--primary-font);
+  font-family: "corporate-s", sans-serif;
   font-size: 1.2em;
   font-weight: 700;
 }
 
 #fee-footer {
-  font-family: var(--primary-font);
+  font-family: "corporate-s", sans-serif;
   font-size: 1em;
 }
 
 #scholar-text {
-  font-family: var(--primary-font);
+  font-family: "corporate-s", sans-serif;
   font-size: 1.4em
 }
 
@@ -168,27 +168,27 @@
 }
 
 .news-title-upper {
-  font-family: var(--primary-font);
+  font-family: "corporate-s", sans-serif;
   font-size: 1.5em;
 }
 
 #email-field {
-  font-family: var(--primary-font);
+  font-family: "corporate-s", sans-serif;
   font-size: 1em;
 }
 
 #name-field {
-  font-family: var(--primary-font);
+  font-family: "corporate-s", sans-serif;
   font-size: 1em;
 }
 
 #submit {
-  font-family: var(--primary-font);
+  font-family: "corporate-s", sans-serif;
   font-size: 1em;
 }
 
 .footer-container {
-  font-family: var(--primary-font);
+  font-family: "corporate-s", sans-serif;
   font-size: 1em;
 }
 
@@ -199,23 +199,23 @@
 }
 
 .price {
-  font-family: var(--primary-font);
+  font-family: "corporate-s", sans-serif;
   font-size: 1.6em;
 }
 
 #rb-info {
-  font-family: var(--primary-font);
+  font-family: "corporate-s", sans-serif;
   font-size: 1em;
 }
 
 .hero-menu-item {
-  font-family: var(--primary-font);
+  font-family: "corporate-s", sans-serif;
   font-size: 1.8em;
   
 }
 
 #hero-menu-title {
-  font-family: var(--primary-font);
+  font-family: "corporate-s", sans-serif;
   font-size: 1.6em;
   
 }
