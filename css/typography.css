@@ -233,9 +233,16 @@
   }
 
   #container-title {
-    font-size: .6em;
-        
+    font-size: .6em;  
 
+  }
+
+  .seminar-title {
+    font-size: 1.8em;
+  }
+
+  .sem-subtitle {
+    font-size: 1.6em;
   }
 }
 
