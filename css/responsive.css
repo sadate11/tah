@@ -193,6 +193,10 @@
         
     }
 
+    .seminar-text {
+        text-overflow: clip;
+    }
+
     #sem-divider {
         display: none;
     }
@@ -236,6 +240,15 @@
 
     .sem-subtitle {
         text-align: left;
+    }
+
+    .scholar-info {
+        text-align: left;
+    }
+
+    .seminar-info {
+        margin-left: auto;
+        margin-right: auto;
     }
 
     

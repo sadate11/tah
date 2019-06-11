@@ -238,12 +238,36 @@
   }
 
   .seminar-title {
-    font-size: 1.8em;
+    font-size: 1.6em;
   }
 
   .sem-subtitle {
     font-size: 1.6em;
   }
+
+  .seminar-text {
+    font-size: 1em;
+  }
+
+  .news-title-upper {
+    font-size: 1em;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
