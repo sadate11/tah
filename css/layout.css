@@ -335,10 +335,11 @@
 .seminar-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
 }
 
 .seminar-text {
-  padding-right: 6rem;
+  padding-right: 6vw;
 }
 
 .seminar-img {
@@ -571,6 +572,8 @@
   outline: none;
   cursor: pointer;
 }
+
+
 
 #square-shape {
   margin-left: 10%;
